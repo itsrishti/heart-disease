@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(95, 145, 186, 0.8),rgba(73, 119, 174, 0.8)),url(young-handsome-physician-medical-robe-with-stethoscope.jpg);
+background-position: center;
+background-size: cover ;
+    position: relative;
+}
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    padding: 50px 60px;
+    text-align: center;
+
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color:#409eb8;
+    position: relative;
+}
+.form-box h1::after{
+    content: '';
+    width:30px;height: 4px;
+    border-radius: 3px;
+    background: #409eb8;
+    position:absolute;
+    bottom: -12px;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    /* overflow: hidden;  */
+} 
+input{
+    width: 100%;
+    background: transparent;
+    border:0;
+    outline: 0;
+    padding: 18px 15px;
+}
+form p{
+    text-align: left;
+    font-size:13px;
+    /* padding: 2px; */
+    margin-bottom: 6%;
+    /* bottom:6%; */
+}
+form p a{
+    text-decoration: none;
+    color:#2e80b3;
+    /* padding: 2px; */
+    /* bottom: 6%; */
+    margin-bottom: 6px;
+}
+.btn-field{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: #489cc6;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor:pointer;
+    margin: 4%;
+    bottom: 250px;
+    /* margin-bottom: 200px; */
+        transition: background 1s;
+}
+.input-group{
+    /* height: 1px; */
+}
+.btn-field button.disable{
+ background: #eaeaea;
+ color: #555;
+}
+#signupBtn,#signinBtn{
+    color: #fff;
+}
+#signupBtn:hover,#signinBtn:hover{
+    color: #489cc6;
+    background-color: #fff;
+}
+    
+
+
